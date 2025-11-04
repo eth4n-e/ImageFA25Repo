@@ -6,13 +6,24 @@
   </head>
   <body>
     <a-scene>
-      <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
-      <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
-      <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
-      <a-plane position="0 0.1 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+      <!--Snowman-->
+      <a-sphere position="0 5.5 -5" radius="1.375" color="#DFFFFF"></a-sphere>
+      <a-sphere position="0 3.5 -5" radius="1.625" color="#DFFFFF"></a-sphere>
+      <a-sphere position="0 1.25 -5" radius="2" color="#DFFFFF"></a-sphere>
+      <!--Hat-->
+      <a-cone position="0 7 -5" rotation="0 0 0" roughness="0.25" radius-bottom="1.25" height="2.5" roughness="0.5" color="#FF0000"></a-cone>
+      <!--Eyes-->
+      <a-sphere position="-0.375 5.625 -3.675" radius="0.075" color="#000000"></a-sphere>
+      <a-sphere position=".375 5.625 -3.675" radius="0.075" color="#000000"></a-sphere>
+      <!--Nose-->
+      <a-cone position="0 5.375 -3.625" rotation="270 180 0" roughness="0.25" radius-bottom="0.25" height="1" color="#ED9121"></a-cone>
+      <!--Buttons-->
+      <a-sphere position="0 4.25 -3.55" radius="0.075" color="#000000"></a-sphere>
+      <a-sphere position="0 3.75 -3.375" radius="0.075" color="#000000"></a-sphere>
+      <a-sphere position="0 3.25 -3.375" radius="0.075" color="#000000"></a-sphere>
       <!-- <a-sky color="#ECECEC"></a-sky> -->
       <!-- the enviroment entity includes a sky. Choose from the presets"none, default, contact, egypt, checkerboard, forest, goaland, yavapai, goldmine, threetowers, poison, arches, tron, japan, dream, volcano, starry, osiris, moon" -->
-      <a-entity environment="preset: forest; dressingAmount: 500"></a-entity>
+      <a-entity environment="preset: threetowers; fog: true; dressingAmount: 50; dressingColor: #BFEFFF; groundTexture: squares; groundColor: #BFEFFF; skyType: gradient; skyColor: #BFEFFF; horizonColor: #FFFFFF; horizonHeight: 0.5; cloudColor: #000000; cloudHeight: 0.5;"></a-entity>
     </a-scene>
   </body>
 </html>
