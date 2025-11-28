@@ -1,0 +1,636 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 4766,
+      "max": [
+        0.10709573328495026,
+        0.25620579719543457,
+        0.11353159695863724
+      ],
+      "min": [
+        -0.28491637110710144,
+        -0.3805425763130188,
+        -0.17248855531215668
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 57192,
+      "componentType": 5126,
+      "count": 4766,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 4766,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 6756,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 114384,
+      "componentType": 5126,
+      "count": 5327,
+      "max": [
+        0.1054469421505928,
+        0.22118230164051056,
+        0.10091657936573029
+      ],
+      "min": [
+        -0.3036605417728424,
+        -0.3580867648124695,
+        -0.12748399376869202
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 178308,
+      "componentType": 5126,
+      "count": 5327,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 38128,
+      "componentType": 5126,
+      "count": 5327,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 27024,
+      "componentType": 5125,
+      "count": 7455,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 242232,
+      "componentType": 5126,
+      "count": 4779,
+      "max": [
+        0.21361766755580902,
+        0.24649441242218018,
+        0.12462053447961807
+      ],
+      "min": [
+        -0.4176948070526123,
+        -0.48895829916000366,
+        -0.18784958124160767
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 299580,
+      "componentType": 5126,
+      "count": 4779,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 80744,
+      "componentType": 5126,
+      "count": 4779,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 56844,
+      "componentType": 5125,
+      "count": 6603,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 356928,
+      "componentType": 5126,
+      "count": 5039,
+      "max": [
+        0.2822628617286682,
+        0.19887669384479523,
+        0.10548888146877289
+      ],
+      "min": [
+        -0.32917147874832153,
+        -0.45398256182670593,
+        -0.17072653770446777
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 417396,
+      "componentType": 5126,
+      "count": 5039,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 118976,
+      "componentType": 5126,
+      "count": 5039,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 83256,
+      "componentType": 5125,
+      "count": 7278,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 477864,
+      "componentType": 5126,
+      "count": 5541,
+      "max": [
+        0.18322791159152985,
+        0.20061250030994415,
+        0.09489865601062775
+      ],
+      "min": [
+        -0.2589018940925598,
+        -0.4714473485946655,
+        -0.1598856896162033
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 544356,
+      "componentType": 5126,
+      "count": 5541,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 159288,
+      "componentType": 5126,
+      "count": 5541,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 112368,
+      "componentType": 5125,
+      "count": 8271,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 610848,
+      "componentType": 5126,
+      "count": 5499,
+      "max": [
+        0.21360759437084198,
+        0.20301134884357452,
+        0.09849657118320465
+      ],
+      "min": [
+        -0.22234512865543365,
+        -0.4918172359466553,
+        -0.1672232300043106
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 676836,
+      "componentType": 5126,
+      "count": 5499,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 203616,
+      "componentType": 5126,
+      "count": 5499,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 145452,
+      "componentType": 5125,
+      "count": 8190,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "generator": "fab-model-conversion",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 178212,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 247608,
+      "byteOffset": 178212,
+      "byteStride": 8,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 742824,
+      "byteOffset": 425820,
+      "byteStride": 12,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1168644,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Material_baseColor.png"
+    },
+    {
+      "uri": "textures/Material_metallicRoughness.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Material",
+      "occlusionTexture": {
+        "index": 1,
+        "strength": 0.7252506551386584
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 1
+        },
+        "roughnessFactor": 0.8211145618
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Tulip_blue_01_Material_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Tulip_blue_03_Material_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Tulip_blue_04_Material_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Tulip_blue_02_Material_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 13,
+            "POSITION": 12,
+            "TEXCOORD_0": 14
+          },
+          "indices": 15,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Tulip_blue_05_Material_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 17,
+            "POSITION": 16,
+            "TEXCOORD_0": 18
+          },
+          "indices": 19,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Tulip_blue_06_Material_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 21,
+            "POSITION": 20,
+            "TEXCOORD_0": 22
+          },
+          "indices": 23,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "75475139ca494be7823f8747555fcd5f.fbx"
+    },
+    {
+      "children": [
+        3,
+        5,
+        7,
+        9,
+        11,
+        13
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        0.9203698823447998,
+        0.3074885547733689,
+        0.24159873581357658,
+        0.0,
+        -0.20643303572078325,
+        0.9067621083946471,
+        -0.3676518469187881,
+        0.0,
+        -0.33212133393659216,
+        0.2885017438282372,
+        0.8980323843560681,
+        0.0,
+        12.61777114868164,
+        -2.518585443496704,
+        -11.02624797821045,
+        1.0
+      ],
+      "name": "Tulip_blue_01"
+    },
+    {
+      "mesh": 0,
+      "name": "Tulip_blue_01_Material_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        -0.8754512901301357,
+        0.4209978757864259,
+        -0.23737276000585739,
+        0.0,
+        0.32945839044549075,
+        0.8791844281035256,
+        0.34422653928095565,
+        0.0,
+        0.35361307607970016,
+        0.2231491204634109,
+        -0.9083844243831234,
+        0.0,
+        12.937946319580078,
+        -2.4967145919799805,
+        -10.968810081481934,
+        1.0
+      ],
+      "name": "Tulip_blue_03"
+    },
+    {
+      "mesh": 1,
+      "name": "Tulip_blue_03_Material_0"
+    },
+    {
+      "children": [
+        8
+      ],
+      "matrix": [
+        0.49809742874602514,
+        0.3074885420828748,
+        -0.8107710823434359,
+        0.0,
+        -0.41171539192734996,
+        0.9067620561151934,
+        0.09095608632661883,
+        0.0,
+        0.763144408042611,
+        0.28850194120229905,
+        0.5782536142522571,
+        0.0,
+        13.286474227905273,
+        -2.3912339210510254,
+        -11.26219367980957,
+        1.0
+      ],
+      "name": "Tulip_blue_04"
+    },
+    {
+      "mesh": 2,
+      "name": "Tulip_blue_04_Material_0"
+    },
+    {
+      "children": [
+        10
+      ],
+      "matrix": [
+        -0.9033807912857612,
+        -0.043046395129662296,
+        0.42667335726788996,
+        0.0,
+        0.1305211700697036,
+        0.9201468682402054,
+        0.3691801254555526,
+        0.0,
+        -0.4084940270059612,
+        0.3892001396891875,
+        -0.8256245400703455,
+        0.0,
+        12.876667022705078,
+        -2.442793607711792,
+        -11.351360321044922,
+        1.0
+      ],
+      "name": "Tulip_blue_02"
+    },
+    {
+      "mesh": 3,
+      "name": "Tulip_blue_02_Material_0"
+    },
+    {
+      "children": [
+        12
+      ],
+      "matrix": [
+        -0.8337192426505406,
+        0.4808389868195592,
+        0.27148866125226884,
+        0.0,
+        0.4470635522032032,
+        0.8763596276554143,
+        -0.17924280545427038,
+        0.0,
+        -0.32410863105703197,
+        -0.028065490731561032,
+        -0.9456034705437233,
+        0.0,
+        12.921717643737793,
+        -2.3863437175750732,
+        -10.628153800964355,
+        1.0
+      ],
+      "name": "Tulip_blue_05"
+    },
+    {
+      "mesh": 4,
+      "name": "Tulip_blue_05_Material_0"
+    },
+    {
+      "children": [
+        14
+      ],
+      "matrix": [
+        0.6895253528875996,
+        0.37352233534977664,
+        -0.6205125725721277,
+        0.0,
+        -0.5919446850711172,
+        0.784302681813694,
+        -0.1856631172740112,
+        0.0,
+        0.4173203536149261,
+        0.49532854581045127,
+        0.76190114461393,
+        0.0,
+        13.162008285522461,
+        -2.3398027420043945,
+        -10.854255676269531,
+        1.0
+      ],
+      "name": "Tulip_blue_06"
+    },
+    {
+      "mesh": 5,
+      "name": "Tulip_blue_06_Material_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}

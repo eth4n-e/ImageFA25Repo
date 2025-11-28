@@ -2,14 +2,56 @@
 <html>
   <head>
     <script src="https://aframe.io/releases/1.7.1/aframe.min.js"> </script>
+    <script src="https://unpkg.com/aframe-atoll-terrain@^1.0.0/dist/aframe-atoll-terrain.js"></script>
   </head>
   <body>
+    <a-assets>
+      <a-assets-item id="mountain-sky" src="assets/mountain-sky-masked.png"></a-assets-item>
+      <a-assets-item id="blue-sky" src="assets/blue-sky-masked.png"></a-assets-item>
+      <a-assets-item id="seahorse" src="assets/seahorse.dae.obj"></a-assets-item>
+      <a-assets-item id="shark" src="assets/hammerhead.dae.obj"></a-assets-item>
+      <a-assets-item id="cow" src="assets/cow.dae.obj"></a-assets-item>
+      <a-assets-item id="fox" src="assets/fox.dae.obj"></a-assets-item>
+      <!--Textures-->
+      <img id="shark-txtr" src="assets/shark-txtr.jpg"/>
+      <img id="seahorse-txtr" src="assets/seahorse-txtr.jpg"/>
+    </a-assets>
     <a-scene>
-      <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
-      <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
-      <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
-      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
-      <a-sky color="#ECECEC"></a-sky>
+      <!--land yin experiment: #dde5f4, 528d04-->
+      <!--land yang experiment: #b232b-->
+      <!--sea yin experiment: #dde5f4-->
+      <!--sea yang experiment: #668eab-->
+      <a-obj-model 
+        src="#seahorse" 
+        material="src: #seahorse-txtr;" 
+        rotation="0 60 0"
+        position="3 -10 -10" 
+        scale="0.05 0.05 0.05"
+        animation="property: position; to: 3 0 -10; loop: true; dur: 2500; dir: alternate;">
+      </a-obj-model>
+      <!-- <a-obj-model src="#cow" position="20 0 10" scale="0.1 0.1 0.1"></a-obj-model> -->
+      <a-obj-model 
+        src="#shark" 
+        material="src: #shark-txtr; roughness: 1" 
+        position="5 -8 0" 
+        rotation="0 0 0"
+        scale="0.025 0.025 0.025"
+        animation="property: position; to: 2 -4.5 5; loop: true; dur: 2500; dir: alternate;">
+        > 
+      </a-obj-model>
+      <!-- <a-obj-model 
+        src="#fox" 
+        material="color: orange" 
+        position="5 0 8" 
+        rotation="0 -75 0"
+        animation="property:scale; from: 0.05 0.05 0.05; to: 0.25 0.25 0.25; loop: true; dur: 2500; dir:alternate;">
+      </a-obj-model> -->
+      <a-atoll-terrain plateau-radius="10" middle-radius="350" unit-size="8" far="4000"
+                        land-yin-color="#528d04" land-yang-color="#b232b" sea-yin-color="#dde5f4" sea-yang-color="#668eab"
+                        sun-position="10 10 0" plateau-elevation="0" elevation-bias="40"
+                        seed="9">
+      </a-atoll-terrain>
+      <a-sky src="#blue-sky" theta-length="270"></a-sky>
     </a-scene>
   </body>
 </html>
