@@ -15,6 +15,7 @@
       <!--Textures-->
       <img id="shark-txtr" src="assets/shark-txtr.jpg"/>
       <img id="seahorse-txtr" src="assets/seahorse-txtr.jpg"/>
+      <img id="cow-txtr" src="assets/cow-txtr.jpg"/>
     </a-assets>
     <a-scene>
       <!--land yin experiment: #dde5f4, 528d04-->
@@ -29,7 +30,6 @@
         scale="0.05 0.05 0.05"
         animation="property: position; to: 3 0 -10; loop: true; dur: 2500; dir: alternate;">
       </a-obj-model>
-      <!-- <a-obj-model src="#cow" position="20 0 10" scale="0.1 0.1 0.1"></a-obj-model> -->
       <a-obj-model 
         src="#shark" 
         material="src: #shark-txtr; roughness: 1" 
@@ -39,13 +39,25 @@
         animation="property: position; to: 2 -4.5 5; loop: true; dur: 2500; dir: alternate;">
         > 
       </a-obj-model>
-      <!-- <a-obj-model 
-        src="#fox" 
-        material="color: orange" 
-        position="5 0 8" 
-        rotation="0 -75 0"
-        animation="property:scale; from: 0.05 0.05 0.05; to: 0.25 0.25 0.25; loop: true; dur: 2500; dir:alternate;">
-      </a-obj-model> -->
+      <a-obj-model
+        src="#fox"
+        material="color: orange"
+        position="20 5 10"
+        scale="0.25 0.25 0.25"
+        rotation="15 75 0"
+        animation="property: position; to: 30 35 75; dur: 3500; loop: true; dir: alternate"
+        animation__turn="property: rotation; to: 15 240 0; dur: 1750; loop: true; dir: alternate;">
+      </a-obj-model>
+      <a-obj-model 
+        src="#cow"
+        scale="0.01 0.01 0.01"
+        position="-40 20 -40"
+        rotation="0 0 180"
+        material="src: #cow-txtr"
+        animation="property: scale; to: 0.035 0.035 0.035; loop: true; dur: 2500; dir: alternate"
+        animation__pos="property: position; from: -40 20 -40; to: -40 60 -40; dur: 2500; dir: alternate"
+        >
+      </a-obj-model>
       <a-atoll-terrain plateau-radius="10" middle-radius="350" unit-size="8" far="4000"
                         land-yin-color="#528d04" land-yang-color="#b232b" sea-yin-color="#dde5f4" sea-yang-color="#668eab"
                         sun-position="10 10 0" plateau-elevation="0" elevation-bias="40"
